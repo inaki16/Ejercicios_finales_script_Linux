@@ -1,5 +1,5 @@
 # ejercicios-scripts-Linux
-_Ejercicio scripts de Linux - Daniel Vílchez - 1º DAM Sistemas Informáticos_
+
 
 ## Script 1: 
 #### Escriba un script que elimine un archivo o directorio pasado como parámetro, y le pregunte si está seguro de llevar a cabo la acción.
