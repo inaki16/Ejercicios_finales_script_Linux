@@ -6,7 +6,6 @@ _Ejercicio scripts de Linux - Daniel Vílchez - 1º DAM Sistemas Informáticos_
 ~~~~
 #!/bin/bash
 
-#Script 1: Elimine un archivo o directorio pasado como parámetro y le pregunta si está seguro de llevar a cabo la acción
 
 clear
 
@@ -34,7 +33,6 @@ fi
 ~~~~
 #!/bin/bash
 
-#Script 2: Escribir un script que pueda mostrar información de un comando al ejecutar dicho script y pasar como parámetro el comando
 
 clear
 $1 --help
@@ -45,7 +43,6 @@ $1 --help
 ~~~~
 #!/bin/bash
 
-#Script 3: Realiza un script que compruebe si el usuario actual del sistema es blas, si es así visualiza su nombre 5 veces, sino te despides de él amigablemente
 clear
 
 USUARIO=$(whoami)
@@ -66,7 +63,6 @@ fi
 ~~~~
 #!/bin/bash
 
-#Script 4: En un fichero tengo una palabra clave. Haz un script que muestre si dicha palabra es el parámetro pasado o no.
 
 clear
 
@@ -89,7 +85,6 @@ fi
 ~~~~
 #!/bin/bash
 
-#Script 5: Tenemos un menu principal: (1) Suma: Lee dos numeros y los suma. (2) Resta. (3) Multiplicación. (4) Salir:Termina el script.
 
 clear
 
@@ -124,7 +119,6 @@ esac
 ~~~~
 #!/bin/bash
 
-#Script 6: Nos pide la edad y nos dice si es mayor de edad o menor
 
 clear
 
@@ -142,7 +136,6 @@ fi
 ~~~~
 #!/bin/bash
 
-#Script 7: Script que reciba un nombre de fichero, verifique que existe y que es un fichero de lectura-escritura, lo convierta en ejecutable para el usuario y el grupo y muestre el estado final de los permisos.
 
 clear
 
@@ -167,7 +160,6 @@ fi
 ~~~~
 #!/bin/bash
 
-#Script 8: Script que nos diga al pulsar una tecla, si es letra, numero o caracter especial.
 
 clear
 
@@ -188,8 +180,7 @@ done
 ~~~~
 #!/bin/bash
 
-#Script 9: Realizar un script que reciba varios parametros y nos diga cuantos de esos 
-#parametros son de directorios y cuantos son archivos. $# contador que indica cuantos parametros se pasan.
+
 
 clear
 
@@ -213,9 +204,7 @@ echo "Número de ficheros: $contadorFicheros"
 ~~~~
 #!/bin/bash
 
-#Script 10: Mostramos menu, con productos para vender, luego nos pide que introduzcamos la opcion. 
-#luego mensaje que indica que introduzca moneda. Si ponemos precio exacto nos da mensaje, 
-#"Gracias buen provecho", si ponemos menos, nos diga falta. Si poner mas valor, nos indique el cambio con mensaje.
+
 
 clear
 
@@ -269,9 +258,7 @@ esac
 ~~~~
 #!/bin/bash
 
-#Script 11: Realizar un script que pida introducir la ruta de un directorio por teclado 
-#(Hay que validar que la variable introducida sea un directorio) nos diga cuantos archivos y 
-#cuantos directorios hay dentro de ese directorio.
+
 
 clear
 
@@ -288,7 +275,6 @@ echo "Dentro del directorio hay $contadorDirectorios directorios y $contadorFich
 ~~~~
 #!/bin/bash
 
-#Script 12: Realiza un script que introduzca número por parámetro y muestre tabla de multiplicar.
 
 clear
 
@@ -305,7 +291,6 @@ done
 ~~~~
 #! /bin/bash
 
-#Script 13: Script que limpie todas las reglas, y de permiso a todas las conexiones.
 
 clear
 
@@ -328,7 +313,6 @@ iptables -I INPUT -j ACCEPT
 ~~~~
 #!/bin/bash
 
-#Script 14: Script que limpie todas las reglas, y prohíba cualquier conexión.
 
 clear
 
@@ -351,7 +335,6 @@ iptables -I INPUT -j DROP
 ~~~~
 #!/bin/bash
 
-#Script 15: Tendrá 3 parámetros: red(ip), entrada-salida, aceptar-denegar. Dará estos permisos a iptables.
 
 clear
 
